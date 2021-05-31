@@ -287,8 +287,8 @@ padding-bottom: 47px;
 /*-----------Gallery-------------------*/
 .picture{
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 47px;
+    padding-top: 47px;
+    padding-bottom: 94px;
 }
 
 .picture-title{
@@ -301,17 +301,8 @@ padding-bottom: 47px;
    margin-bottom: 50px;
    }
 
-.picture-list{
-    flex-basis: calc((100% - 90px) / 3);
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    /*margin-top: -30px;*/ 
-   }
-
 .picture-list-item{
     margin-left: 30px;
-   /* margin-top: 30px;*/
 }
    /*----------------TEAM---------------*/
    .team{
@@ -319,7 +310,6 @@ padding-bottom: 47px;
     padding-bottom: 94px;
     text-align: center;
     background-color: #F5F4FA;
-    padding: 30px 10px;
 }
 
 .team-img-list{
@@ -403,12 +393,10 @@ padding-bottom: 47px;
    line-height: 1.71;
    color:var(--text-decoration-color);
    letter-spacing: 0.03em;
-   max-width: 240px;
    margin-top: 20px;
  }
 
 .address-item{
-   display: inline-block;
     margin-bottom: 9px;
 }
 .address-item:last-child{
@@ -431,7 +419,6 @@ padding-bottom: 47px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-   /*color: var(--white-contacts-color);*/
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -461,7 +448,6 @@ padding-bottom: 47px;
 }
 
 .main{
-    background: #F5F4FA; 
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -482,6 +468,8 @@ padding-bottom: 47px;
     padding-bottom: 4px;
     padding-left: 22px;
     padding-right: 22px;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
 .button:hover,
@@ -497,8 +485,6 @@ color:var(--accent-color);
 .main-buttons{
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: -8px;
-    margin-left: -8px;
     margin-bottom: 50px;
 }
 
@@ -510,7 +496,6 @@ color:var(--accent-color);
 }
 
 .picture-item{
-    display: block;
     width: calc((100% - 90px) / 3);
     margin-top: 30px;
     margin-left: 30px;

@@ -290,9 +290,11 @@ padding-bottom: 47px;
     padding-top: 47px;
     padding-bottom: 94px;
 }
-.picture-list{
+.picture-list-gallery{
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    margin-left: -30px;
  }
  
 .picture-title{

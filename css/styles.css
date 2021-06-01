@@ -290,7 +290,11 @@ padding-bottom: 47px;
     padding-top: 47px;
     padding-bottom: 94px;
 }
-
+.picture-list{
+    display: flex;
+    align-items: flex-start;
+ }
+ 
 .picture-title{
    font-family:inherit;
    font-weight: 700;
